@@ -4,36 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Page!</h1>
+        <h1>Welcome to My Page</h1>
     </header>
     <main>
-        <section id="introduction">
-            <h2>About Me</h2>
-            <p>
-                Hi! I'm currently pursuing a Master's degree in 
-                <strong>Foundation of Data Science</strong> at 
-                <strong>North Carolina State University (NCSU)</strong>. 
-                I also work as a Manager in the <strong>IT Management Division</strong> 
-                at <strong>Korea Exchange</strong>.
-            </p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:jgoo@ncsu.edu">jgoo@ncsu.edu</a></p>
-        </section>
-        <section id="fun-fact">
-            <h2>Fun Fact</h2>
-            <button id="revealFact">Click to reveal a fun fact about me!</button>
-            <p id="funFact" class="hidden">I enjoy learning new technologies and solving complex problems!</p>
-        </section>
+        <h2>About Me</h2>
+        <p>I am a Master's student at NCSU and a Manager at Korea Exchange.</p>
+        <button>Contact Me</button>
     </main>
-    <footer>
-        <p>&copy; 2025 Your Name</p>
-    </footer>
 </body>
 </html>
